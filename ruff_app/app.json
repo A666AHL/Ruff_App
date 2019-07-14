@@ -1,0 +1,49 @@
+{
+    "devices": [
+        {
+            "id": "sound-01",
+            "model": "SOUND-01",
+            "driver": "sound-01",
+            "args": {
+                "interval": 1000,
+                "enabled": true
+            },
+            "inputs": {
+                "gpio": {
+                    "type": "gpio",
+                    "args": {
+                        "direction": "in",
+                        "edge": "none"
+                    }
+                }
+            }
+        },
+        {
+            "id": "gy-30",
+            "model": "GY-30",
+            "driver": "gy-30",
+            "args": {
+                "highResolution": true
+            },
+            "inputs": {
+                "i2c": {
+                    "type": "i2c",
+                    "args": {
+                        "address": 35
+                    }
+                }
+            }
+        },
+        {
+            "id": "dht11",
+            "model": "DHT11",
+            "driver": "dht11",
+            "inputs": {
+                "gpio": {
+                    "type": "gpio",
+                    "reserve": "gpio-18/gpio"
+                }
+            }
+        }
+    ]
+}

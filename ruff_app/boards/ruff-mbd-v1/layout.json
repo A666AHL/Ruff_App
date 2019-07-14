@@ -1,0 +1,12 @@
+{
+    "mapping": {
+        "sound-01/vcc": "ruff-mbd-v1/vdd-0",
+        "sound-01/gnd": "ruff-mbd-v1/gnd-0",
+        "sound-01/gpio": "ruff-mbd-v1/gpio-11",
+        "gy-30/vcc": "ruff-mbd-v1/vdd-1",
+        "gy-30/gnd": "ruff-mbd-v1/gnd-1",
+        "gy-30/i2c": "ruff-mbd-v1/i2c-0",
+        "dht11/vcc": "ruff-mbd-v1/vdd-2",
+        "dht11/gnd": "ruff-mbd-v1/gnd-2"
+    }
+}
