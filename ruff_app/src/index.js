@@ -2,7 +2,7 @@
 // 光感器
 var lightSensor;
 var mqtt = require('mqtt');
-var client = mqtt.connect('mqtt://47.102.157.201:1883');
+var client = mqtt.connect('mqtt://XXXXXXXXX:1883');
 // 温度，光强，湿度
 var data = {Temperature:"", Illuminance:"", Humidity:""};
 
